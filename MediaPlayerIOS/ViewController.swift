@@ -20,6 +20,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Do any additional setup after loading the view, typically from a nib.
 
         let musicPath: NSURL = NSURL(string: NSBundle.mainBundle().pathForResource("musica", ofType: "mp3")!)!
+        print(musicPath)
 
         do {
             self.musicPlayer = try AVAudioPlayer(contentsOfURL: musicPath)
@@ -39,14 +40,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 
     @IBAction func pauseAudio(sender: AnyObject) {
-        print("play pause acionado")
+        print("pause audio acionado")
         if (self.musicPlayer!.playing) {
             self.musicPlayer!.pause()
         }
     }
 
     @IBAction func stopAudio(sender: UIBarButtonItem) {
-        print("play stop acionado")
+        print("stop audio acionado")
         if (self.musicPlayer!.playing) {
             self.musicPlayer!.stop()
         }

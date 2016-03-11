@@ -14,6 +14,7 @@
 		AC0DFEFF1C92516000AA6873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0DFEFD1C92516000AA6873 /* LaunchScreen.storyboard */; };
 		AC0DFF0A1C92516000AA6873 /* MediaPlayerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFF091C92516000AA6873 /* MediaPlayerIOSTests.swift */; };
 		AC0DFF151C92516000AA6873 /* MediaPlayerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFF141C92516000AA6873 /* MediaPlayerIOSUITests.swift */; };
+		AC0DFF231C92526500AA6873 /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0DFF221C92526500AA6873 /* musica.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC0DFF101C92516000AA6873 /* MediaPlayerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0DFF141C92516000AA6873 /* MediaPlayerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerIOSUITests.swift; sourceTree = "<group>"; };
 		AC0DFF161C92516000AA6873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0DFF221C92526500AA6873 /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AC0DFEE81C92516000AA6873 = {
 			isa = PBXGroup;
 			children = (
+				AC0DFF221C92526500AA6873 /* musica.mp3 */,
 				AC0DFEF31C92516000AA6873 /* MediaPlayerIOS */,
 				AC0DFF081C92516000AA6873 /* MediaPlayerIOSTests */,
 				AC0DFF131C92516000AA6873 /* MediaPlayerIOSUITests */,
@@ -231,6 +234,7 @@
 			files = (
 				AC0DFEFF1C92516000AA6873 /* LaunchScreen.storyboard in Resources */,
 				AC0DFEFC1C92516000AA6873 /* Assets.xcassets in Resources */,
+				AC0DFF231C92526500AA6873 /* musica.mp3 in Resources */,
 				AC0DFEFA1C92516000AA6873 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

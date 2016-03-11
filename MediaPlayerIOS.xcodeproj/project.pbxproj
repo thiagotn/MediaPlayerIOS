@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0DFEF51C92516000AA6873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFEF41C92516000AA6873 /* AppDelegate.swift */; };
+		AC0DFEF71C92516000AA6873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFEF61C92516000AA6873 /* ViewController.swift */; };
+		AC0DFEFA1C92516000AA6873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0DFEF81C92516000AA6873 /* Main.storyboard */; };
+		AC0DFEFC1C92516000AA6873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0DFEFB1C92516000AA6873 /* Assets.xcassets */; };
+		AC0DFEFF1C92516000AA6873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0DFEFD1C92516000AA6873 /* LaunchScreen.storyboard */; };
+		AC0DFF0A1C92516000AA6873 /* MediaPlayerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFF091C92516000AA6873 /* MediaPlayerIOSTests.swift */; };
+		AC0DFF151C92516000AA6873 /* MediaPlayerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DFF141C92516000AA6873 /* MediaPlayerIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0DFF061C92516000AA6873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0DFEE91C92516000AA6873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0DFEF01C92516000AA6873;
+			remoteInfo = MediaPlayerIOS;
+		};
+		AC0DFF111C92516000AA6873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0DFEE91C92516000AA6873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0DFEF01C92516000AA6873;
+			remoteInfo = MediaPlayerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0DFEF11C92516000AA6873 /* MediaPlayerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0DFEF41C92516000AA6873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0DFEF61C92516000AA6873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0DFEF91C92516000AA6873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0DFEFB1C92516000AA6873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0DFEFE1C92516000AA6873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0DFF001C92516000AA6873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0DFF051C92516000AA6873 /* MediaPlayerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0DFF091C92516000AA6873 /* MediaPlayerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerIOSTests.swift; sourceTree = "<group>"; };
+		AC0DFF0B1C92516000AA6873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0DFF101C92516000AA6873 /* MediaPlayerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0DFF141C92516000AA6873 /* MediaPlayerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerIOSUITests.swift; sourceTree = "<group>"; };
+		AC0DFF161C92516000AA6873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0DFEEE1C92516000AA6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF021C92516000AA6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF0D1C92516000AA6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0DFEE81C92516000AA6873 = {
+			isa = PBXGroup;
+			children = (
+				AC0DFEF31C92516000AA6873 /* MediaPlayerIOS */,
+				AC0DFF081C92516000AA6873 /* MediaPlayerIOSTests */,
+				AC0DFF131C92516000AA6873 /* MediaPlayerIOSUITests */,
+				AC0DFEF21C92516000AA6873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0DFEF21C92516000AA6873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DFEF11C92516000AA6873 /* MediaPlayerIOS.app */,
+				AC0DFF051C92516000AA6873 /* MediaPlayerIOSTests.xctest */,
+				AC0DFF101C92516000AA6873 /* MediaPlayerIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0DFEF31C92516000AA6873 /* MediaPlayerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DFEF41C92516000AA6873 /* AppDelegate.swift */,
+				AC0DFEF61C92516000AA6873 /* ViewController.swift */,
+				AC0DFEF81C92516000AA6873 /* Main.storyboard */,
+				AC0DFEFB1C92516000AA6873 /* Assets.xcassets */,
+				AC0DFEFD1C92516000AA6873 /* LaunchScreen.storyboard */,
+				AC0DFF001C92516000AA6873 /* Info.plist */,
+			);
+			path = MediaPlayerIOS;
+			sourceTree = "<group>";
+		};
+		AC0DFF081C92516000AA6873 /* MediaPlayerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DFF091C92516000AA6873 /* MediaPlayerIOSTests.swift */,
+				AC0DFF0B1C92516000AA6873 /* Info.plist */,
+			);
+			path = MediaPlayerIOSTests;
+			sourceTree = "<group>";
+		};
+		AC0DFF131C92516000AA6873 /* MediaPlayerIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DFF141C92516000AA6873 /* MediaPlayerIOSUITests.swift */,
+				AC0DFF161C92516000AA6873 /* Info.plist */,
+			);
+			path = MediaPlayerIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0DFEF01C92516000AA6873 /* MediaPlayerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0DFF191C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOS" */;
+			buildPhases = (
+				AC0DFEED1C92516000AA6873 /* Sources */,
+				AC0DFEEE1C92516000AA6873 /* Frameworks */,
+				AC0DFEEF1C92516000AA6873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayerIOS;
+			productName = MediaPlayerIOS;
+			productReference = AC0DFEF11C92516000AA6873 /* MediaPlayerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0DFF041C92516000AA6873 /* MediaPlayerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0DFF1C1C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOSTests" */;
+			buildPhases = (
+				AC0DFF011C92516000AA6873 /* Sources */,
+				AC0DFF021C92516000AA6873 /* Frameworks */,
+				AC0DFF031C92516000AA6873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0DFF071C92516000AA6873 /* PBXTargetDependency */,
+			);
+			name = MediaPlayerIOSTests;
+			productName = MediaPlayerIOSTests;
+			productReference = AC0DFF051C92516000AA6873 /* MediaPlayerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0DFF0F1C92516000AA6873 /* MediaPlayerIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0DFF1F1C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOSUITests" */;
+			buildPhases = (
+				AC0DFF0C1C92516000AA6873 /* Sources */,
+				AC0DFF0D1C92516000AA6873 /* Frameworks */,
+				AC0DFF0E1C92516000AA6873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0DFF121C92516000AA6873 /* PBXTargetDependency */,
+			);
+			name = MediaPlayerIOSUITests;
+			productName = MediaPlayerIOSUITests;
+			productReference = AC0DFF101C92516000AA6873 /* MediaPlayerIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0DFEE91C92516000AA6873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thiago Nogueira";
+				TargetAttributes = {
+					AC0DFEF01C92516000AA6873 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AC0DFF041C92516000AA6873 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC0DFEF01C92516000AA6873;
+					};
+					AC0DFF0F1C92516000AA6873 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC0DFEF01C92516000AA6873;
+					};
+				};
+			};
+			buildConfigurationList = AC0DFEEC1C92516000AA6873 /* Build configuration list for PBXProject "MediaPlayerIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0DFEE81C92516000AA6873;
+			productRefGroup = AC0DFEF21C92516000AA6873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0DFEF01C92516000AA6873 /* MediaPlayerIOS */,
+				AC0DFF041C92516000AA6873 /* MediaPlayerIOSTests */,
+				AC0DFF0F1C92516000AA6873 /* MediaPlayerIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0DFEEF1C92516000AA6873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DFEFF1C92516000AA6873 /* LaunchScreen.storyboard in Resources */,
+				AC0DFEFC1C92516000AA6873 /* Assets.xcassets in Resources */,
+				AC0DFEFA1C92516000AA6873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF031C92516000AA6873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF0E1C92516000AA6873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0DFEED1C92516000AA6873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DFEF71C92516000AA6873 /* ViewController.swift in Sources */,
+				AC0DFEF51C92516000AA6873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF011C92516000AA6873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DFF0A1C92516000AA6873 /* MediaPlayerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0DFF0C1C92516000AA6873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DFF151C92516000AA6873 /* MediaPlayerIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0DFF071C92516000AA6873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0DFEF01C92516000AA6873 /* MediaPlayerIOS */;
+			targetProxy = AC0DFF061C92516000AA6873 /* PBXContainerItemProxy */;
+		};
+		AC0DFF121C92516000AA6873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0DFEF01C92516000AA6873 /* MediaPlayerIOS */;
+			targetProxy = AC0DFF111C92516000AA6873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0DFEF81C92516000AA6873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0DFEF91C92516000AA6873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0DFEFD1C92516000AA6873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0DFEFE1C92516000AA6873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0DFF171C92516000AA6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0DFF181C92516000AA6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0DFF1A1C92516000AA6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC0DFF1B1C92516000AA6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC0DFF1D1C92516000AA6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlayerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayerIOS.app/MediaPlayerIOS";
+			};
+			name = Debug;
+		};
+		AC0DFF1E1C92516000AA6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlayerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayerIOS.app/MediaPlayerIOS";
+			};
+			name = Release;
+		};
+		AC0DFF201C92516000AA6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediaPlayerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediaPlayerIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC0DFF211C92516000AA6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediaPlayerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.thiago.MediaPlayerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediaPlayerIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0DFEEC1C92516000AA6873 /* Build configuration list for PBXProject "MediaPlayerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DFF171C92516000AA6873 /* Debug */,
+				AC0DFF181C92516000AA6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0DFF191C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DFF1A1C92516000AA6873 /* Debug */,
+				AC0DFF1B1C92516000AA6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0DFF1C1C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DFF1D1C92516000AA6873 /* Debug */,
+				AC0DFF1E1C92516000AA6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0DFF1F1C92516000AA6873 /* Build configuration list for PBXNativeTarget "MediaPlayerIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DFF201C92516000AA6873 /* Debug */,
+				AC0DFF211C92516000AA6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0DFEE91C92516000AA6873 /* Project object */;
+}
